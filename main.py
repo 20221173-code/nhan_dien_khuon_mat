@@ -37,8 +37,7 @@ class CameraThread(QThread):
                 frame = self.detector.draw_faces(frame, faces)
                 
                 self.frame_signal.emit(frame)
-                self.faces_signal.emit(faces)
-            
+                self.faces_signal.emit(list(faces))            
             cv2.waitKey(1)
     
     def stop(self):
