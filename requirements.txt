@@ -1,0 +1,9 @@
+opencv-python==4.8.0.74
+opencv-contrib-python==4.8.0.74
+numpy==1.24.3
+Pillow==9.5.0
+PyQt5==5.15.9
+PyQt5-sip==12.12.2
+mysql-connector-python==8.0.33
+PyMySQL==1.1.0
+python-dotenv==1.0.0
